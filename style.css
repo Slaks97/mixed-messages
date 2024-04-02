@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url('./images/forest-bgd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    background-color: #000;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 380px;
+    padding: 35px 25px;
+    text-shadow: 3px 3px 1px #000;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+button {
+    padding: 8px 16px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+    background-color: olivedrab;
+    text-shadow: 1px 1px #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+}
