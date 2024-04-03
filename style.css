@@ -53,6 +53,11 @@ p {
     font-size: 1.3rem;
 }
 
+.reveal-msg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
 button {
     padding: 8px 16px;
     margin-bottom: 40px;
